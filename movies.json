@@ -2,16 +2,36 @@
   {
     "title": "The Thing",
     "director": "John Carpenter",
-    "rating": 4
+    "rating": 5
   },
   {
     "title": "Re-animator",
     "director": "Brian Yuzna",
-    "rating": 4
+    "rating": 5
   },
   {
     "title": "Evil Dead",
     "director": "Sam Raimi",
+    "rating": 5
+  },
+  {
+    "title": "Evil Dead 2",
+    "director": "Sam Raimi",
+    "rating": 4
+  },
+  {
+    "title": "Drag Me To Hell",
+    "director": "Sam Raimi",
+    "rating": 4
+  },
+  {
+    "title": "Dawn of the Dead",
+    "director": "George A. Romero",
+    "rating": 5
+  },
+  {
+    "title": "Day of the Dead",
+    "director": "George A. Romero",
     "rating": 5
   }
 ]
