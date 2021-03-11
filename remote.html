@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JSON</title>
     <link rel="stylesheet" href="style.css" />
-    <script defer src="app-text.js"></script>
+    <script defer src="app-remote.js"></script>
   </head>
   <body>
     <header>
@@ -18,7 +18,20 @@
         <a href="remote.html">🌐 REMOTE</a>
       </nav>
     </header>
-    <main id="app-root"></main>
+    <main id="app-root">
+      <div>
+        <p>
+          Hur många Pokemon minns du namnet på?<br />
+          Skriv namnet på en Pokemon för att fånga den:
+        </p>
+        <form>
+          <input type="text" required data-input />
+          <button>🔎</button>
+        </form>
+        <p class="message"></p>
+      </div>
+      <div id="pokegym"></div>
+    </main>
     <footer>
       <p>
         Exempel på användningsområden för fetch(). Bryggd för NTI Gymnasiets

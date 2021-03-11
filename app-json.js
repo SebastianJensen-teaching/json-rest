@@ -1,4 +1,4 @@
-fetch("./movies.json")
+fetch("./movies.json", {})
   .then((response) => {
     console.log(response);
     return response.json();
