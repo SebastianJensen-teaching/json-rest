@@ -1,0 +1,17 @@
+[
+  {
+    "title": "The Thing",
+    "director": "John Carpenter",
+    "rating": 4
+  },
+  {
+    "title": "Re-animator",
+    "director": "Brian Yuzna",
+    "rating": 4
+  },
+  {
+    "title": "Evil Dead",
+    "director": "Sam Raimi",
+    "rating": 5
+  }
+]
