@@ -20,7 +20,7 @@ fetch("./movies.json")
       let rating = document.createElement("p");
       let numRating = parseInt(movie.rating);
       for (let i = 0; i < numRating; i++) {
-        rating.innerText += "⭐";
+        rating.innerText += "💀";
       }
       newDiv.append(rating);
       document.querySelector("#app-root").append(newDiv);
