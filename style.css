@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+
+body {
+  background-color: #333;
+  color: rgba(255, 112, 178, 1);
+  font-family: "DotGothic16", sans-serif;
+}
+
+::selection {
+  background: rgba(86, 140, 135, 1);
+  color: rgba(119, 203, 121, 1);
+}
+
+main {
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 4rem;
+  overflow-x: scroll;
+  margin: 1.5rem;
+  padding: 0.5rem;
+}
+
+main::-webkit-scrollbar {
+  height: 8px;
+  background: radial-gradient(
+    circle,
+    rgba(86, 140, 135, 1) 39%,
+    rgba(119, 203, 121, 1) 42%,
+    rgba(255, 196, 112, 1) 69%,
+    rgba(255, 112, 178, 1) 91%
+  );
+}
+
+main img {
+  border-radius: 1rem;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+main::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.5);
+}
