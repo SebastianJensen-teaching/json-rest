@@ -8,6 +8,9 @@ fetch("./movies.json")
     data.forEach((movie) => {
       let newDiv = document.createElement("div");
       newDiv.classList.add("movie-item");
+      let movieImage = document.createElement("img");
+      movieImage.setAttribute("src", "./img/" + movie.img);
+      newDiv.append(movieImage);
       let movieTitle = document.createElement("h2");
       movieTitle.innerText = movie.title;
       newDiv.append(movieTitle);

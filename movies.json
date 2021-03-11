@@ -1,36 +1,43 @@
 [
   {
     "title": "The Thing",
+    "img": "the-thing.jpg",
     "director": "John Carpenter",
     "rating": 5
   },
   {
     "title": "Re-animator",
+    "img": "re-animator.jpg",
     "director": "Brian Yuzna",
     "rating": 5
   },
   {
-    "title": "Evil Dead",
+    "title": "The Evil Dead",
+    "img": "the-evil-dead.jpg",
     "director": "Sam Raimi",
     "rating": 5
   },
   {
     "title": "Evil Dead 2",
+    "img": "evil-dead-2.jpg",
     "director": "Sam Raimi",
     "rating": 4
   },
   {
     "title": "Drag Me To Hell",
+    "img": "drag-me-to-hell.jpg",
     "director": "Sam Raimi",
     "rating": 4
   },
   {
     "title": "Dawn of the Dead",
+    "img": "dawn-of-the-dead.jpg",
     "director": "George A. Romero",
     "rating": 5
   },
   {
     "title": "Day of the Dead",
+    "img": "day-of-the-dead.jpg",
     "director": "George A. Romero",
     "rating": 5
   }
